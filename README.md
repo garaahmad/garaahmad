@@ -2,7 +2,7 @@
 
 Welcome to my GitHub space — where code meets creativity!
 
-I'm a passionate **Front-End Developer** with a strong interest in web and mobile development. I love turning ideas into interactive, user-friendly experiences.
+I'm a passionate **Full Stack Developer and Full-Stack Flutter Developer** with a strong interest in web and mobile development. I love turning ideas into interactive, user-friendly experiences.
 
 ---
 
@@ -24,10 +24,11 @@ I'm a passionate **Front-End Developer** with a strong interest in web and mobil
 - Scripting & automation
 - Small backend tasks
 
-### 📱 Android Development
+### 📱 Mobile Development
 - UI Design
 - Java/Kotlin basics
 - Simple apps and tools
+- Flutter
 
 ---
 
