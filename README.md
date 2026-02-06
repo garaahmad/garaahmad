@@ -44,9 +44,8 @@ I’m a passionate developer who loves building seamless, cross-platform mobile 
 
 ## 📫 Connect with me
 
-- 💼 [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME)
-- 🐦 [Twitter](https://twitter.com/YOUR_TWITTER_USERNAME)
-- 📧 [Email](mailto:your.email@example.com)
+- 💼 [LinkedIn](www.linkedin.com/in/ahmed-algarably)
+- 📧 [Email](mailto:ahmedalgarably49@gmail.com)
 
 ---
 *“Code is like humor. When you have to explain it, it’s bad.”*
