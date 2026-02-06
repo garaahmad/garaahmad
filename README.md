@@ -1,54 +1,52 @@
-# 👋 Hi there, I'm **Ahmad Algarably**  
+# Hi there, I'm Ahmad Algarably 👋
+### Full-Stack Developer | Flutter & Node.js Specialist
 
-Welcome to my GitHub space — where code meets creativity!
-
-I'm a passionate **Full Stack Developer and Full-Stack Flutter Developer** with a strong interest in web and mobile development. I love turning ideas into interactive, user-friendly experiences.
-
----
-
-## 🛠️ Tech Stack
-
-### 💻 Front-End
-- HTML5
-- CSS3 / Flexbox / Grid
-- JavaScript (ES6+)
-- Bootstrap
-- Responsive Design / Mobile-First
-
-### 🧠 JavaScript Tools
-- DOM Manipulation
-- Fetch API
-- Basic React (learning more every day!)
-
-### 🐍 Python
-- Scripting & automation
-- Small backend tasks
-
-### 📱 Mobile Development
-- UI Design
-- Java/Kotlin basics
-- Simple apps and tools
-- Flutter
+I’m a passionate developer who loves building seamless, cross-platform mobile experiences and robust backend systems. I bridge the gap between beautiful UIs and scalable server-side logic.
 
 ---
 
-## 🚀 What I'm Working On
+## 🚀 About Me
 
-- Building fun, clean, and modern UI components  
-- Creating Android apps with intuitive UX  
-- Automating boring stuff with Python  
-- Sharpening my JavaScript & exploring React
-
----
-
-## 📬 Let's Connect!
-
-I'm always open to feedback, collaborations, or just chatting about tech!  
-
-Feel free to follow me or reach out here on GitHub.
+- 📱 **Mobile:** Expert in building high-performance apps using **Flutter**.
+- ⚙️ **Backend:** Crafting scalable APIs and microservices with **Node.js** and **Express**.
+- 🛠️ **Tools:** Version control (Git), Firebase, RESTful APIs, and Databases (SQL/NoSQL).
+- 💡 **Goal:** Turning complex problems into simple, elegant code.
 
 ---
 
-> *"Code is like humor. When you have to explain it, it’s bad."* — Cory House
+## 🛠 My Tech Stack
 
-Thanks for stopping by! ✨
+### Frontend & Mobile
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+
+### Backend & Database
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white) 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Tools & Others
+![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white) 
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="left">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=garaahmad&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=garaahmad&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 📫 Connect with me
+
+- 💼 [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME)
+- 🐦 [Twitter](https://twitter.com/YOUR_TWITTER_USERNAME)
+- 📧 [Email](mailto:your.email@example.com)
+
+---
+*“Code is like humor. When you have to explain it, it’s bad.”*
