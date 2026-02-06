@@ -44,7 +44,7 @@ I’m a passionate developer who loves building seamless, cross-platform mobile 
 
 ## 📫 Connect with me
 
-- 💼 [LinkedIn](www.linkedin.com/in/ahmed-algarably)
+- 💼 [LinkedIn](https://www.linkedin.com/in/ahmed-algarably/)
 - 📧 [Email](mailto:ahmedalgarably49@gmail.com)
 
 ---
