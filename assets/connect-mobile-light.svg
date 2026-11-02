@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="252" viewBox="0 0 640 252" fill="none" role="img" aria-labelledby="title description">
+<title id="title">Let's build something that matters</title>
+<desc id="description">Contact Ahmad about mobile and full-stack web development using the email and LinkedIn links below.</desc>
+<defs>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#D5DFEB" stroke-opacity=".32" stroke-width=".6"/></pattern>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#087F69"/><stop offset=".55" stop-color="#245FBB"/><stop offset="1" stop-color="#BE4434"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F5F8FC"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#245FBB" stop-opacity=".14"/><stop offset="1" stop-color="#245FBB" stop-opacity="0"/></radialGradient>
+  <clipPath id="frame"><rect width="640" height="252" rx="22"/></clipPath>
+</defs>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+.label { font-size: 11px; font-weight: 600; letter-spacing: 2px; }
+.muted { fill: #4D617B; }
+.faint { fill: #64748B; }
+.pulse { animation: pulse 3s ease-out infinite; transform-origin: 566px 66px; }
+@keyframes pulse { 0% { transform: scale(.9); opacity: .6; } 85%,100% { transform: scale(1.35); opacity: 0; } }
+.arrow { animation: arrow 3s ease-in-out infinite; }
+@keyframes arrow { 0%,100% { transform: translate(0,0); } 50% { transform: translate(3px,-3px); } }
+@media (prefers-reduced-motion: reduce) {
+  .motion { animation: none !important; }
+  .role { animation: none !important; transform: none !important; opacity: 0 !important; }
+  .role-1 { opacity: 1 !important; }
+  .packet-motion { display: none; }
+}
+</style>
+<g clip-path="url(#frame)">
+<rect width="640" height="252" fill="#F5F8FC"/>
+<rect width="640" height="252" fill="url(#grid)" opacity=".5"/>
+<ellipse cx="565" cy="80" rx="180" ry="160" fill="url(#halo)"/>
+<path d="M32 0H240" stroke="url(#accent)" stroke-width="3"/>
+<text x="32" y="42" fill="#087F69" class="mono" font-size="14" letter-spacing="1.1">HAVE AN IDEA? LET’S MAKE IT REAL.</text>
+<text x="30" y="103" fill="#142338" font-size="37" font-weight="650" letter-spacing="-1">Good products are</text>
+<text x="30" y="148" fill="#142338" font-size="37" font-weight="650" letter-spacing="-1">built end to end.</text>
+<text x="32" y="193" fill="#4D617B" font-size="19">Mobile, web, and the systems behind them.</text>
+<text x="32" y="222" fill="#4D617B" font-size="19">Let’s build something that matters.</text>
+<circle class="motion pulse" cx="566" cy="66" r="32" stroke="#087F69"/>
+<circle cx="566" cy="66" r="28" fill="#FFFFFF" stroke="#D5DFEB"/>
+<g class="motion arrow"><path d="M556 76L576 56M558 56H576V74" stroke="#087F69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<rect x=".5" y=".5" width="639" height="251" rx="21.5" stroke="#D5DFEB"/>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="680" viewBox="0 0 640 680" fill="none" role="img" aria-labelledby="title description">
+<title id="title">Ahmad Al-Garably — Flutter &amp; Full-Stack Developer</title>
+<desc id="description">4+ years in Flutter. Full-stack web development with React and Laravel. Animated phone and browser illustrations.</desc>
+<defs>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#263548" stroke-opacity=".32" stroke-width=".6"/></pattern>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#79E8C5"/><stop offset=".55" stop-color="#83B8FF"/><stop offset="1" stop-color="#FF927F"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111C2A"/><stop offset="1" stop-color="#0B111B"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#83B8FF" stop-opacity=".14"/><stop offset="1" stop-color="#83B8FF" stop-opacity="0"/></radialGradient>
+  <clipPath id="frame"><rect width="640" height="680" rx="22"/></clipPath>
+</defs>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+.label { font-size: 11px; font-weight: 600; letter-spacing: 2px; }
+.muted { fill: #A5B5C9; }
+.faint { fill: #71839B; }
+
+.float-phone { animation: phone 7s ease-in-out infinite; }
+.float-browser { animation: browser 8s ease-in-out infinite; }
+.status-dot { animation: breathe 3s ease-in-out infinite; }
+.role { opacity: 0; }
+.role-1 { opacity: 1; animation: role-one 18s infinite; }
+.role-2 { animation: role-two 18s infinite; }
+.role-3 { animation: role-three 18s infinite; }
+@keyframes phone { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes browser { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+@keyframes breathe { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+@keyframes role-one { 0%,28% { opacity:1; } 33%,95% { opacity:0; } 100% { opacity:1; } }
+@keyframes role-two { 0%,28% { opacity:0; } 33%,61% { opacity:1; } 66%,100% { opacity:0; } }
+@keyframes role-three { 0%,61% { opacity:0; } 66%,95% { opacity:1; } 100% { opacity:0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .motion { animation: none !important; }
+  .role { animation: none !important; transform: none !important; opacity: 0 !important; }
+  .role-1 { opacity: 1 !important; }
+  .packet-motion { display: none; }
+}
+
+.motion, .role { animation: none !important; }
+.role { opacity: 0 !important; transform: none !important; }
+.role-1 { opacity: 1 !important; }
+.packet-motion { display: none !important; }
+</style>
+<g clip-path="url(#frame)">
+<rect width="640" height="680" fill="#0B111B"/>
+
+<rect width="640" height="680" fill="url(#grid)"/>
+<ellipse cx="450" cy="485" rx="300" ry="235" fill="url(#halo)"/>
+<path d="M32 0H240" stroke="url(#accent)" stroke-width="3"/>
+<text x="32" y="49" fill="#A5B5C9" class="mono" font-size="16" letter-spacing="1.5">AHMAD / SOFTWARE ENGINEER</text>
+<circle class="motion status-dot" cx="591" cy="43" r="5" fill="#79E8C5"/>
+<text x="32" y="107" fill="#79E8C5" class="mono" font-size="15" letter-spacing="2">BUILDING ACROSS THE STACK</text>
+<text x="28" y="180" fill="#F2F6FC" font-size="70" font-weight="750" letter-spacing="-3">Ahmad</text>
+<text x="28" y="251" fill="#F2F6FC" font-size="70" font-weight="750" letter-spacing="-3">Al-Garably<tspan fill="#79E8C5">.</tspan></text>
+<g font-size="22" class="mono">
+<text x="32" y="298" fill="#79E8C5" class="mono motion role role-1">Flutter experiences, engineered.</text>
+<text x="32" y="298" fill="#79E8C5" class="mono motion role role-2">React interfaces. Laravel backends.</text>
+<text x="32" y="298" fill="#79E8C5" class="mono motion role role-3">From first pixel to production API.</text>
+</g>
+<rect x="32" y="327" width="239" height="38" rx="7" fill="#111C2A" stroke="#263548"/>
+<text x="47" y="352" fill="#F2F6FC" class="mono" font-size="16">4+ YEARS IN FLUTTER</text>
+<rect x="283" y="327" width="237" height="38" rx="7" fill="#111C2A" stroke="#263548"/>
+<text x="298" y="352" fill="#F2F6FC" class="mono" font-size="16">FULL-STACK MINDSET</text>
+<g transform="translate(34 434) rotate(-5 150 85)"><g class="motion float-browser">
+<rect width="322" height="174" rx="13" fill="#0B111B" stroke="#263548" stroke-width="1.5"/>
+<path d="M0 33H322" stroke="#263548"/>
+<circle cx="16" cy="16" r="3" fill="#FF927F"/><circle cx="28" cy="16" r="3" fill="#E9C98D"/><circle cx="40" cy="16" r="3" fill="#79E8C5"/>
+<g transform="translate(48 77)" stroke="#83B8FF" stroke-width="1.6">
+<ellipse rx="23" ry="8"/><ellipse rx="23" ry="8" transform="rotate(60)"/><ellipse rx="23" ry="8" transform="rotate(120)"/><circle r="3.3" fill="#83B8FF" stroke="none"/>
+</g>
+<text x="84" y="73" fill="#F2F6FC" font-size="20" font-weight="650">React</text>
+<text x="84" y="94" fill="#A5B5C9" class="mono" font-size="11">FRONTEND ENGINEERING</text>
+<path d="M19 110H303" stroke="#263548"/>
+<rect x="19" y="124" width="108" height="31" rx="6" fill="#111C2A" stroke="#263548"/>
+<text x="33" y="145" fill="#FF927F" class="mono" font-size="17" font-weight="600">Laravel</text>
+<path d="M140 139H169M164 135L169 139L164 143" stroke="#71839B" stroke-width="1.5"/>
+<rect x="184" y="129" width="104" height="5" rx="2.5" fill="#83B8FF" fill-opacity=".65"/>
+<rect x="184" y="143" width="74" height="5" rx="2.5" fill="#263548"/>
+</g></g>
+<g transform="translate(410 397) rotate(8 79 125)"><g class="motion float-phone">
+<rect width="158" height="250" rx="29" fill="url(#screen)" stroke="#71839B" stroke-width="1.5"/>
+<rect x="9" y="9" width="140" height="232" rx="23" stroke="#263548"/>
+<rect x="56" y="14" width="46" height="10" rx="5" fill="#0B111B"/>
+<g transform="translate(49 53) scale(1.04)">
+<path d="M29 0H47L18 29L9 20Z" fill="#83B8FF"/>
+<path d="M29 30H47L29 48L38 57H20L11 48Z" fill="#83B8FF"/>
+<path d="M20 39L29 30L38 39L29 48Z" fill="#79E8C5"/>
+</g>
+<text x="79" y="138" fill="#F2F6FC" text-anchor="middle" font-size="23" font-weight="650">Flutter</text>
+<text x="79" y="160" fill="#A5B5C9" text-anchor="middle" class="mono" font-size="10">EVERY SCREEN.</text>
+<rect x="19" y="180" width="120" height="30" rx="7" fill="#79E8C5" fill-opacity=".12" stroke="#79E8C5" stroke-opacity=".3"/>
+<text x="79" y="200" fill="#79E8C5" text-anchor="middle" class="mono" font-size="10">iOS · Android · Web</text>
+<rect x="57" y="231" width="44" height="3" rx="1.5" fill="#71839B"/>
+</g></g>
+<path d="M32 646H608" stroke="#263548"/>
+<text x="32" y="668" fill="#A5B5C9" class="mono" font-size="12" letter-spacing="1">CLEAN CODE. THOUGHTFUL MOTION.</text>
+<text x="608" y="668" text-anchor="end" fill="#71839B" class="mono" font-size="12">@garaahmad</text>
+
+</g>
+<rect x=".5" y=".5" width="639" height="679" rx="21.5" stroke="#263548"/>
+</svg>
