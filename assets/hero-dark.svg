@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title description">
+<title id="title">Ahmad Al-Garably — Flutter &amp; Full-Stack Developer</title>
+<desc id="description">4+ years in Flutter. Full-stack web development with React and Laravel. Animated phone and browser illustrations.</desc>
+<defs>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#263548" stroke-opacity=".32" stroke-width=".6"/></pattern>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#79E8C5"/><stop offset=".55" stop-color="#83B8FF"/><stop offset="1" stop-color="#FF927F"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111C2A"/><stop offset="1" stop-color="#0B111B"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#83B8FF" stop-opacity=".14"/><stop offset="1" stop-color="#83B8FF" stop-opacity="0"/></radialGradient>
+  <clipPath id="frame"><rect width="1200" height="440" rx="22"/></clipPath>
+<clipPath id="phone-clip"><rect x="10" y="34" width="138" height="204" rx="16"/></clipPath></defs>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+.label { font-size: 11px; font-weight: 600; letter-spacing: 2px; }
+.muted { fill: #A5B5C9; }
+.faint { fill: #71839B; }
+
+.float-phone { animation: float-phone 7s ease-in-out infinite; }
+.float-browser { animation: float-browser 8s ease-in-out infinite; }
+.orbit { animation: orbit 36s linear infinite; transform-origin: 0px 0px; }
+.status-dot { animation: breathe 3s ease-in-out infinite; }
+.scan { animation: scan 6s ease-in-out infinite; }
+.cursor { animation: cursor 1.2s step-end infinite; }
+.role { opacity: 0; }
+.role-1 { opacity: 1; animation: role-one 18s infinite; }
+.role-2 { animation: role-two 18s infinite; }
+.role-3 { animation: role-three 18s infinite; }
+@keyframes float-phone { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+@keyframes float-browser { 0%,100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes breathe { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+@keyframes scan { 0%,100% { transform: translateY(0); opacity: 0; } 20%,70% { opacity: .55; } 85% { transform: translateY(175px); opacity: 0; } }
+@keyframes cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+@keyframes role-one { 0%,28% { opacity:1; transform:translateY(0); } 33%,95% { opacity:0; transform:translateY(-7px); } 100% { opacity:1; transform:translateY(0); } }
+@keyframes role-two { 0%,28% { opacity:0; transform:translateY(7px); } 33%,61% { opacity:1; transform:translateY(0); } 66%,100% { opacity:0; transform:translateY(-7px); } }
+@keyframes role-three { 0%,61% { opacity:0; transform:translateY(7px); } 66%,95% { opacity:1; transform:translateY(0); } 100% { opacity:0; transform:translateY(7px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .motion { animation: none !important; }
+  .role { animation: none !important; transform: none !important; opacity: 0 !important; }
+  .role-1 { opacity: 1 !important; }
+  .packet-motion { display: none; }
+}
+</style>
+<g clip-path="url(#frame)">
+<rect width="1200" height="440" fill="#0B111B"/>
+
+<rect width="1200" height="440" fill="url(#grid)"/>
+<ellipse cx="980" cy="208" rx="335" ry="285" fill="url(#halo)"/>
+<path d="M56 0H400" stroke="url(#accent)" stroke-width="3"/>
+<rect x="54" y="34" width="38" height="38" rx="11" fill="#111C2A" stroke="#263548"/>
+<path d="M64 60L72 44L80 60M67 55H77" stroke="#79E8C5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="106" y="58" fill="#A5B5C9" class="mono" font-size="12" letter-spacing="1.4">AHMAD / SOFTWARE ENGINEER</text>
+<rect x="939" y="39" width="205" height="29" rx="14.5" fill="#111C2A" stroke="#263548"/>
+<circle class="motion status-dot" cx="957" cy="53.5" r="3.5" fill="#79E8C5"/>
+<text x="971" y="57.5" fill="#A5B5C9" class="mono" font-size="10.5" letter-spacing="1">MOBILE × WEB × AI</text>
+<text x="56" y="118" fill="#79E8C5" class="label">BUILDING ACROSS THE STACK</text>
+<text x="51" y="190" fill="#F2F6FC" font-size="72" font-weight="750" letter-spacing="-3">Ahmad</text>
+<text x="51" y="260" fill="#F2F6FC" font-size="72" font-weight="750" letter-spacing="-3">Al-Garably<tspan fill="#79E8C5">.</tspan></text>
+<g font-size="19" class="mono">
+<text x="56" y="305" fill="#79E8C5" class="mono motion role role-1">Flutter experiences, engineered.</text>
+<text x="56" y="305" fill="#79E8C5" class="mono motion role role-2">React interfaces. Laravel backends.</text>
+<text x="56" y="305" fill="#79E8C5" class="mono motion role role-3">From first pixel to production API.</text>
+</g>
+<rect class="motion cursor" x="56" y="319" width="10" height="2" rx="1" fill="#79E8C5"/>
+<g font-size="10.5" class="mono" letter-spacing="1">
+<rect x="56" y="347" width="183" height="29" rx="6" fill="#111C2A" stroke="#263548"/>
+<text x="70" y="366" fill="#F2F6FC" class="mono">4+ YEARS IN FLUTTER</text>
+<rect x="249" y="347" width="180" height="29" rx="6" fill="#111C2A" stroke="#263548"/>
+<text x="263" y="366" fill="#F2F6FC" class="mono">FULL-STACK MINDSET</text>
+</g>
+<g transform="translate(964 222)">
+  <circle r="156" stroke="#263548" stroke-dasharray="3 8"/>
+  <circle r="188" stroke="#263548" stroke-opacity=".45"/>
+  <g class="motion orbit"><circle cx="156" r="4" fill="#79E8C5"/><circle cx="-156" r="3" fill="#83B8FF"/><circle cy="-188" r="3" fill="#FF927F"/></g>
+</g>
+<path d="M805 154L849 154L849 320L1100 320" stroke="#263548" stroke-width="1.5" stroke-dasharray="5 6"/>
+<g transform="translate(786 191) rotate(-7 155 85)"><g class="motion float-browser">
+<rect width="322" height="174" rx="13" fill="#0B111B" stroke="#263548" stroke-width="1.5"/>
+<path d="M0 33H322" stroke="#263548"/>
+<circle cx="16" cy="16" r="3" fill="#FF927F"/><circle cx="28" cy="16" r="3" fill="#E9C98D"/><circle cx="40" cy="16" r="3" fill="#79E8C5"/>
+<rect x="68" y="10" width="185" height="12" rx="6" fill="#111C2A"/>
+<g transform="translate(48 77)" stroke="#83B8FF" stroke-width="1.6">
+<ellipse rx="23" ry="8"/><ellipse rx="23" ry="8" transform="rotate(60)"/><ellipse rx="23" ry="8" transform="rotate(120)"/><circle r="3.3" fill="#83B8FF" stroke="none"/>
+</g>
+<text x="84" y="73" fill="#F2F6FC" font-size="16" font-weight="650">React</text>
+<text x="84" y="92" fill="#A5B5C9" class="mono" font-size="9">INTERFACES THAT FEEL RIGHT</text>
+<path d="M19 110H303" stroke="#263548"/>
+<rect x="19" y="124" width="86" height="29" rx="6" fill="#111C2A" stroke="#263548"/>
+<text x="32" y="143" fill="#FF927F" class="mono" font-size="12" font-weight="600">Laravel</text>
+<path d="M116 138H145M140 134L145 138L140 142" stroke="#71839B" stroke-width="1.5"/>
+<rect x="156" y="127" width="64" height="5" rx="2.5" fill="#83B8FF" fill-opacity=".65"/>
+<rect x="156" y="140" width="104" height="5" rx="2.5" fill="#263548"/>
+<rect x="230" y="127" width="62" height="5" rx="2.5" fill="#263548"/>
+</g></g>
+<g transform="translate(956 73) rotate(10 79 137)"><g class="motion float-phone">
+<rect x="-5" y="-5" width="168" height="280" rx="34" fill="#0B111B" fill-opacity=".55"/>
+<rect width="158" height="270" rx="29" fill="url(#screen)" stroke="#71839B" stroke-width="1.5"/>
+<rect x="9" y="9" width="140" height="252" rx="23" stroke="#263548"/>
+<rect x="56" y="14" width="46" height="10" rx="5" fill="#0B111B"/>
+<text x="23" y="53" fill="#A5B5C9" class="mono" font-size="8" letter-spacing="1.2">CRAFTED TO MOVE</text>
+<g transform="translate(49 74) scale(1.04)">
+<path d="M29 0H47L18 29L9 20Z" fill="#83B8FF"/>
+<path d="M29 30H47L29 48L38 57H20L11 48Z" fill="#83B8FF"/>
+<path d="M20 39L29 30L38 39L29 48Z" fill="#79E8C5"/>
+</g>
+<text x="79" y="156" fill="#F2F6FC" text-anchor="middle" font-size="21" font-weight="650">Flutter</text>
+<text x="79" y="175" fill="#A5B5C9" text-anchor="middle" class="mono" font-size="8.5">ONE CODEBASE. EVERY SCREEN.</text>
+<rect x="24" y="195" width="110" height="26" rx="7" fill="#79E8C5" fill-opacity=".12" stroke="#79E8C5" stroke-opacity=".3"/>
+<text x="79" y="212" fill="#79E8C5" text-anchor="middle" class="mono" font-size="9">iOS · Android · Web</text>
+<rect x="57" y="247" width="44" height="3" rx="1.5" fill="#71839B"/>
+<g clip-path="url(#phone-clip)"><rect class="motion scan" x="10" y="34" width="138" height="2" fill="#79E8C5"/></g>
+</g></g>
+<path d="M56 400H1144" stroke="#263548"/>
+<text x="56" y="423" fill="#A5B5C9" class="mono" font-size="9.5" letter-spacing="1.3">CLEAN ARCHITECTURE</text>
+<circle cx="246" cy="419" r="2" fill="#79E8C5"/>
+<text x="264" y="423" fill="#A5B5C9" class="mono" font-size="9.5" letter-spacing="1.3">THOUGHTFUL MOTION</text>
+<circle cx="453" cy="419" r="2" fill="#83B8FF"/>
+<text x="471" y="423" fill="#A5B5C9" class="mono" font-size="9.5" letter-spacing="1.3">REAL-WORLD PRODUCTS</text>
+<text x="1144" y="423" text-anchor="end" fill="#71839B" class="mono" font-size="10">@garaahmad</text>
+
+</g>
+<rect x=".5" y=".5" width="1199" height="439" rx="21.5" stroke="#263548"/>
+</svg>

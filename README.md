@@ -1,77 +1,222 @@
-# Hi there, I'm Ahmad Al-Garably 👋
+<div align="center">
 
-### Flutter Developer | Cross-Platform Mobile & AI Integration
+<picture>
+  <source media="(max-width: 640px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-mobile-static-dark.svg" />
+  <source media="(max-width: 640px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-mobile-static-light.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-static-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static-light.svg" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/hero-mobile-dark.svg" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="assets/hero-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+  <img src="assets/hero-light.svg" width="100%" alt="Ahmad Al-Garably — Flutter Engineer and Full-Stack Web Developer. 4+ years in Flutter, building with React and Laravel." />
+</picture>
 
-I'm a passionate Flutter developer with 4+ years of experience building scalable, high-performance cross-platform mobile applications. I love turning complex problems into clean, elegant user experiences — from polished UIs to AI-powered features.
+<br /><br />
 
----
+<strong>Flutter Engineer &nbsp;·&nbsp; Full-Stack Web Developer &nbsp;·&nbsp; AI Integrations</strong>
 
-## 🚀 About Me
+<br /><br />
 
-- 📱 **Mobile:** Expert in building cross-platform apps for iOS, Android & Web using **Flutter & Dart**.
-- 🏗️ **Architecture:** Strong advocate for **Clean Architecture** and **BLoC** state management.
-- 🤖 **AI Integration:** Experienced integrating **Google Gemini**, **Llama 3.2**, and **Hugging Face** models into production apps.
-- ☁️ **Cloud & Backend:** Proficient with **Firebase** (Auth, Firestore, Storage, Cloud Messaging) and **RESTful APIs**.
-- 🎨 **UI/UX:** Passionate about crafting beautiful UIs with custom animations, glassmorphism, and responsive theming.
-- 🎓 **Education:** B.Sc. Computer Science @ Al-Aqsa University, Gaza — GPA: 89% (Excellent).
+<a href="#about">About</a> &nbsp; / &nbsp;
+<a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+<a href="#work">Selected work</a> &nbsp; / &nbsp;
+<a href="#activity">GitHub activity</a> &nbsp; / &nbsp;
+<a href="#connect">Let’s connect</a>
 
----
+<br /><br />
 
-## 🛠 Tech Stack
+<a href="mailto:ahmedalgarably49@gmail.com"><img src="assets/badge-email.svg" alt="Email Ahmad" /></a>
+<a href="https://www.linkedin.com/in/ahmed-algarably/"><img src="assets/badge-linkedin.svg" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/garaahmad"><img src="assets/badge-github.svg" alt="Ahmad on GitHub" /></a>
 
-### Mobile & Language
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+</div>
 
-### State Management & Architecture
-![BLoC](https://img.shields.io/badge/BLoC-%23000000.svg?style=for-the-badge&logo=flutter&logoColor=white)
-![Provider](https://img.shields.io/badge/Provider-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-![Riverpod](https://img.shields.io/badge/Riverpod-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
+<br />
 
-### AI & Data
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=black)
+<a id="about"></a>
 
-### Cloud & Backend
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+## 01 / A little about me
 
-### Tools
-![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+I turn complex ideas into **fast, thoughtfully crafted applications**. My foundation is **4+ years of Flutter development**, complemented by **full-stack web development with React and Laravel**.
 
----
+I care about the whole journey: the interface someone touches, the state behind it, the API that powers it, and the data that makes it dependable.
 
-## 📦 Featured Projects
+<table>
+  <tr>
+    <td width="33.33%" valign="top">
+      <strong>Mobile, without compromise</strong><br /><br />
+      Cross-platform Flutter apps for iOS, Android, and Web. Responsive interfaces, custom animations, and maintainable architecture.
+    </td>
+    <td width="33.33%" valign="top">
+      <strong>Web, from front to back</strong><br /><br />
+      React interfaces connected to Laravel backends. REST APIs, authentication, relational databases, and end-to-end product thinking.
+    </td>
+    <td width="33.33%" valign="top">
+      <strong>Intelligence, with purpose</strong><br /><br />
+      Practical AI integrations with Gemini, Llama, and Hugging Face. Useful product features—not AI added for the sake of a label.
+    </td>
+  </tr>
+</table>
 
-| Project | Description | Stack |
-|---|---|---|
-| 🧠 **MindTrack** | AI-powered mood & journaling app with sentiment analysis and habit tracking | Flutter · Firebase · Gemini AI · BLoC |
-| 💸 **AutoSpend AI** | Offline-first expense tracker that auto-parses bank SMS using Llama 3.2 | Flutter · Llama 3.2 · SQLite · Background Services |
-| 📚 **MindSpark** | Dual-portal educational platform (Teacher & Student) with 30+ screens | Flutter · Firebase · BLoC · GoRouter |
-| 💬 **AuraQuote** | AI-powered quote generation app with glassmorphic UI and multi-provider auth | Flutter · Gemini AI · Firebase · BLoC |
-| 🌦️ **GlobalWeather** | Enterprise weather dashboard with real-time data and interactive maps | Flutter · OpenWeatherMap · BLoC · Firebase |
-| 💼 **Yalano** | Job marketplace with real-time chat and role-based profiles | Flutter · Firebase · Provider · Riverpod |
-| 🚑 **PathAid** | Multi-role ambulance dispatch system with real-time tracking | Flutter · Java Backend · Firebase |
+🎓 &nbsp; **B.Sc. Computer Science**, Al-Aqsa University · **89% — Excellent**
 
----
+<a id="toolkit"></a>
 
-## 📊 GitHub Stats
+## 02 / The toolkit
 
-<p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=garaahmad&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=garaahmad&layout=compact&theme=tokyonight" />
-</p>
+<picture>
+  <source media="(max-width: 640px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/stack-mobile-static-dark.svg" />
+  <source media="(max-width: 640px) and (prefers-reduced-motion: reduce)" srcset="assets/stack-mobile-static-light.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/stack-static-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/stack-static-light.svg" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/stack-mobile-dark.svg" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="assets/stack-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+  <img src="assets/stack-light.svg" width="100%" alt="A moving ribbon of tools: Flutter, Dart, React, Laravel, PHP, TypeScript, Firebase, SQL, REST APIs, Clean Architecture, and AI integrations." />
+</picture>
 
----
+| Layer | Tools I work with |
+| :--- | :--- |
+| **Mobile** | Flutter · Dart · iOS · Android · Flutter Web |
+| **State & architecture** | BLoC · Cubit · Provider · Riverpod · Clean Architecture · GoRouter |
+| **Web frontend** | React · TypeScript · JavaScript · HTML · CSS · Responsive UI |
+| **Web backend** | Laravel · PHP · REST APIs · Authentication · SQL |
+| **Cloud & local data** | Firebase Auth · Cloud Firestore · Storage · Cloud Messaging · SQLite |
+| **AI integrations** | Google Gemini · Llama 3.2 · Hugging Face |
+| **Workflow** | Git · GitHub · Figma · Postman |
 
-## 📫 Connect with Me
+### How I connect the layers
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/ahmed-algarably/)
-- 📧 [Email](mailto:ahmedalgarably49@gmail.com)
+<picture>
+  <source media="(max-width: 640px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/flow-mobile-static-dark.svg" />
+  <source media="(max-width: 640px) and (prefers-reduced-motion: reduce)" srcset="assets/flow-mobile-static-light.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/flow-static-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/flow-static-light.svg" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/flow-mobile-dark.svg" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="assets/flow-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/flow-light.svg" />
+  <img src="assets/flow-light.svg" width="100%" alt="Capability map: Flutter and React for experiences; BLoC and Riverpod for mobile state; Laravel and REST for services; SQL and Firebase for data." />
+</picture>
 
----
+<sub>A cross-stack capability map—not the architecture of a single project. Each product uses the layers it needs.</sub>
 
-*"Clean code always looks like it was written by someone who cares."* — Robert C. Martin
+<br />
+
+**My engineering approach:** clear boundaries → predictable state → thoughtful interfaces → reliable data.
+
+<a id="work"></a>
+
+## 03 / Selected work
+
+> ### Currently building · [FlowCapture AI ↗](https://github.com/garaahmad/FlowCapture)
+>
+> A consent-first automation platform that turns natural language into reviewable workflow plans. I’m building the responsive planning experience and the API foundations behind it.
+>
+> `Next.js` · `React` · `TypeScript` · `NestJS` · `Prisma` · `PostgreSQL`
+>
+> **Status:** active MVP development. Planning and review are in scope; executable workflows and live third-party integrations are not yet implemented.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>01 &nbsp; <a href="https://github.com/garaahmad/autospend_universitaly">AutoSpend AI ↗</a></strong><br />
+      <sub>FINTECH · MOBILE · AI</sub><br /><br />
+      A smart expense tracker that parses bank messages with Llama 3.2, categorizes spending, and generates reports—with local SQLite storage and background capture.<br /><br />
+      <code>Flutter</code> · <code>Llama 3.2</code> · <code>SQLite</code> · <code>Provider</code>
+    </td>
+    <td width="50%" valign="top">
+      <strong>02 &nbsp; <a href="https://github.com/garaahmad/MindTrack">MindTrack ↗</a></strong><br />
+      <sub>WELLBEING · MOBILE · AI</sub><br /><br />
+      A habit tracker and journaling experience with AI-powered mood analysis, mood history, and cloud sync through Firebase.<br /><br />
+      <code>Flutter</code> · <code>Gemini</code> · <code>Hugging Face</code> · <code>Firebase</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>03 &nbsp; <a href="https://github.com/garaahmad/CodeAlpha_MindSpark">MindSpark ↗</a></strong><br />
+      <sub>EDTECH · MULTI-ROLE PLATFORM</sub><br /><br />
+      Separate student and teacher portals for quizzes, assignments, flashcards, messaging, and learning analytics, with real-time Firebase synchronization.<br /><br />
+      <code>Flutter</code> · <code>BLoC</code> · <code>Firebase</code> · <code>GoRouter</code>
+    </td>
+    <td width="50%" valign="top">
+      <strong>04 &nbsp; <a href="https://github.com/garaahmad/Weather">GlobalWeather ↗</a></strong><br />
+      <sub>DATA VISUALIZATION · MOBILE</sub><br /><br />
+      A weather dashboard with live conditions, interactive maps, and background updates. Organized into data, domain, and presentation layers.<br /><br />
+      <code>Flutter</code> · <code>Clean Architecture</code> · <code>Cubit</code> · <code>OpenWeatherMap</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>05 &nbsp; <a href="https://github.com/garaahmad/CodeAlpha_AuraQuote">AuraQuote ↗</a></strong><br />
+      <sub>CREATIVE AI · MOBILE</sub><br /><br />
+      Curated wisdom meets personalized AI reflections, wrapped in a dark glassmorphic interface with smooth transitions and multiple sign-in options.<br /><br />
+      <code>Flutter</code> · <code>Gemini</code> · <code>BLoC</code> · <code>Firebase Auth</code>
+    </td>
+    <td width="50%" valign="top">
+      <strong>06 &nbsp; <a href="https://github.com/garaahmad/AttendX">AttendX ↗</a></strong><br />
+      <sub>PRODUCTIVITY · REAL-TIME SYSTEMS</sub><br /><br />
+      A real-time attendance app with validated CRUD operations, reactive Firestore streams, and Material 3 light/dark themes.<br /><br />
+      <code>Flutter</code> · <code>Cubit</code> · <code>Firestore</code> · <code>Clean Architecture</code>
+    </td>
+  </tr>
+</table>
+
+<div align="right"><a href="https://github.com/garaahmad?tab=repositories">Explore more repositories ↗</a></div>
+
+<a id="activity"></a>
+
+## 04 / GitHub activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=garaahmad&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=12&amp;bg_color=0B111B&amp;title_color=79E8C5&amp;text_color=A5B5C9&amp;icon_color=83B8FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=garaahmad&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=12&amp;bg_color=F5F8FC&amp;title_color=087F69&amp;text_color=4D617B&amp;icon_color=245FBB" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=garaahmad&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=12&amp;bg_color=F5F8FC&amp;title_color=087F69&amp;text_color=4D617B&amp;icon_color=245FBB" alt="Ahmad's public GitHub statistics" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=garaahmad&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;border_radius=12&amp;bg_color=0B111B&amp;title_color=79E8C5&amp;text_color=A5B5C9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=garaahmad&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;border_radius=12&amp;bg_color=F5F8FC&amp;title_color=087F69&amp;text_color=4D617B" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=garaahmad&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;border_radius=12&amp;bg_color=F5F8FC&amp;title_color=087F69&amp;text_color=4D617B" alt="Most used languages in Ahmad's public repositories" />
+</picture>
+
+<br />
+<sub>Live cards from public repositories. Language share reflects code volume, not proficiency; private work may not appear.</sub>
+
+</div>
+
+<a id="connect"></a>
+
+## 05 / Let’s build something good
+
+<a href="mailto:ahmedalgarably49@gmail.com">
+  <picture>
+    <source media="(max-width: 640px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/connect-mobile-static-dark.svg" />
+    <source media="(max-width: 640px) and (prefers-reduced-motion: reduce)" srcset="assets/connect-mobile-static-light.svg" />
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/connect-static-dark.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/connect-static-light.svg" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/connect-mobile-dark.svg" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="assets/connect-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/connect-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/connect-light.svg" />
+    <img src="assets/connect-light.svg" width="100%" alt="Have an idea? Email Ahmad to build mobile, web, and the systems behind them." />
+  </picture>
+</a>
+
+<div align="center">
+  <br />
+  <a href="mailto:ahmedalgarably49@gmail.com">ahmedalgarably49@gmail.com</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/ahmed-algarably/">LinkedIn ↗</a> &nbsp; · &nbsp;
+  <a href="https://github.com/garaahmad">GitHub ↗</a>
+  <br /><br />
+  <sub>Designed with intent. Built layer by layer.</sub>
+</div>
+
+<!--
+Profile artwork is stored locally in assets/ and supports GitHub's light/dark themes.
+To edit and regenerate: python3 scripts/generate_profile_assets.py
+All artwork animations use CSS. Reduced-motion visitors receive separate static SVGs.
+-->
